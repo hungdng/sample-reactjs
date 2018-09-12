@@ -5,7 +5,7 @@ const TopbarDropdownWrapper = styled.div`
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin: 12px -16px;
+    margin: -12px -16px;
     width: 360px;
     min-width: 160px;
     flex-shrink: 0;

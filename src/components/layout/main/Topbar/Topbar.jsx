@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Layout} from 'antd'
 import TopbarWrapper from './Topbar.style';
 import TopbarNotification from './TopbarNotification';
+import TopbarUser from './TopbarUser';
 
 const { Header } = Layout;
 const styling = {
@@ -22,6 +23,9 @@ class Topbar extends Component {
                     <ul className="osdRight">
                         <li className="osdNotify">
                             <TopbarNotification locale={'en'}/>
+                        </li>
+                        <li>
+                            <TopbarUser/>
                         </li>
                     </ul>
                 </Header>
